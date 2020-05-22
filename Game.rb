@@ -1,5 +1,5 @@
-  relative_require 'board'
-  relative-relative_require 'player'
+relative_require 'board'
+relative_require 'player'
   class Game
     def initialize
       

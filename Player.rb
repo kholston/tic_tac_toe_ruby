@@ -1,5 +1,4 @@
-module TicTacToe
-  # A class that defines a basic player
+# A class that defines a basic player
   class Player
     attr_reader :marker, :name
     def initialize(player_marker)
@@ -12,4 +11,3 @@ module TicTacToe
       @name = gets.chomp
     end
   end
-end

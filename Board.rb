@@ -3,7 +3,6 @@
     attr_reader :board
     def initialize
       @board = create_board
-      display_board
     end
 
     def create_board
@@ -19,4 +18,16 @@
       puts " #{@board[2][0].value} | #{@board[2][1].value} | #{@board[2][2].value} "
       puts ' '
     end
+
+    def get_cell
+    end
+
+    def set_cell
+      
+    end
+
+    def game_over
+      
+    end
+
   end
